@@ -1,3 +1,9 @@
+// Header Banner Dynamic Height
+$('#banner').css({'height': $(window).height()});
+
+// Navigation
+var mainNav = jQuery('.main-navigation');
+
 // Get background image from data attr 
 $( '.transparent-section' ).each(function() {
 	var  sectionImage = $(this).data('image');
