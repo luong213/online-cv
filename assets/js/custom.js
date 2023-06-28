@@ -22,7 +22,7 @@ $( '.transparent-section' ).each(function() {
 	});
 
 	// Set background color transparency
-	$(this).children('.transparent-content').css({
+	$(this).find('.transparent-content').css({
 		'background-color':'rgba(' + transparency + ')',
 		'width':'100%',
 		'height':'100%',
