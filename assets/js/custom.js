@@ -21,12 +21,15 @@ $( '.transparent-section' ).each(function() {
 		'background-color':'rgb(' + sectionColor + ')'
 	});
 
+	// Set background size
+	$(this).css({
+		'background-size':'cover'
+	});
 	// Set background color transparency
 	$(this).find('.transparent-content').css({
 		'background-color':'rgba(' + transparency + ')',
 		'width':'100%',
 		'height':'100%',
-		'background-size':'cover',
 	});
 });
 
