@@ -317,12 +317,6 @@ button:focus, button:active:focus, button.active:focus,
 }
 
 /* 2.12 Popular Post Widget */
-.popular-posts {
-
-}
-.popular-posts .post-archives {
-
-}
 .post-archive .post-list {
 	list-style: none;
 	padding: 0px;
@@ -332,7 +326,6 @@ button:focus, button:active:focus, button.active:focus,
 	margin-bottom: 15px;
 }
 .post-list .post-item img {
-	float: left;
 	width: 90px;
 	height: 90px;
 	margin-right: 10px;
@@ -416,8 +409,6 @@ button:focus, button:active:focus, button.active:focus,
 /*==========================================
 = 3.           Site Header Styles            =
 ==========================================*/
-
-#site-header {}
 
 /* 3.1 Site Navigation */
 #site-navigation {
@@ -644,16 +635,11 @@ button:focus, button:active:focus, button.active:focus,
 =  4.          About Section Styles            =
 ============================================*/
 
-#about{}
-
 /* 4.1 Profile Photo */
 .profile-photo {
 	padding: 12px;
 }
 /* 4.2 Profile Details */
-.profile-details {
-
-}
 .about-content {
 	margin-bottom: 31px;
 }
@@ -675,9 +661,6 @@ button:focus, button:active:focus, button.active:focus,
 }
 
 /* 5.1 Skills */
-.programing-skills {
-
-}
 .programing-skills .progress {
 	border-radius: 0px;
 	box-shadow: none;
@@ -814,8 +797,6 @@ button:focus, button:active:focus, button.active:focus,
 =   7         Education Section Styles            =
 ================================================*/
 
-#education {}
-
 .education-container {
 	margin-top: 20px;
 }
@@ -895,8 +876,6 @@ button:focus, button:active:focus, button.active:focus,
 =   8         Portfolio Section Styles            =
 ================================================*/
 
-#portfolio{}
-
 /* 8.1 Portfolio Filters */
 #portfolio-filters {
 	display: table;
@@ -939,9 +918,6 @@ button:focus, button:active:focus, button.active:focus,
 	position: relative;
 	overflow: hidden;
 }
-.portfolio-item .item-content:hover img{
-
-}
 .portfolio-item .item-content .overlay-content {
 	width: 100%;
 	height: 100%;
@@ -954,19 +930,12 @@ button:focus, button:active:focus, button.active:focus,
 	top: 0px;
 	left: 0px;
 }
-a {
-
-}
 .portfolio-item .item-content:hover .overlay-content {
 	background: rgba(31, 181, 172, 0.90);
 }
 .overlay-content .project-info{
 	width: 100%;
 	height:100%;
-}
-.project-info .title-cat,
-.project-info .project-link{
-
 }
 .project-info .project-link {
 	right: 0px;
@@ -1075,7 +1044,6 @@ a {
 .client-testimonials {
 	min-height: 390px;
 }
-.testimonial-slider {}
 .testimonial-slider .item {
 	text-align: center;
 }
@@ -1138,7 +1106,6 @@ a {
 }
 
 /* 9.3 Clients Logo */
-.client-logos {}
 
 .clients-logos ul.logo-items {
 	padding: 0;
@@ -1537,7 +1504,6 @@ a {
 ==============================================*/
 
 /* 11.1 Contact Form */
-.contact-form-container{}
 .contact-form-container .form-title {
 	font-size: 18px;
 	font-weight: normal;
@@ -1640,7 +1606,6 @@ a {
 }
 
 /* 11.2 Contact Address */
-.contact-address {}
 .contact-address .address-title {
 	font-size: 18px;
 	text-transform: uppercase;

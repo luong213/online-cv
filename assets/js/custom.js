@@ -26,6 +26,7 @@ $( '.transparent-section' ).each(function() {
 		'background-color':'rgba(' + transparency + ')',
 		'width':'100%',
 		'height':'100%',
+		'background-size':'cover',
 	});
 });
 
